@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  business: false
+  nonprofit: false
+  category: MyString
+  description: MyText
+  desc_css_selector: MyString
+  url: MyString
+  woman_or_minority_owned: false
+  tags: MyString
+
+two:
+  name: MyString
+  business: false
+  nonprofit: false
+  category: MyString
+  description: MyText
+  desc_css_selector: MyString
+  url: MyString
+  woman_or_minority_owned: false
+  tags: MyString
