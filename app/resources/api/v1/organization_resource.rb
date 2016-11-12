@@ -9,11 +9,21 @@ module API
                  :category,
                  :description,
                  :url,
+                 :urls,
                  :woman_or_minority_owned,
                  :tags
 
       def registered
         @model.business?
+      end
+
+      def urls
+        {
+          donate: @model.donate_url,
+          volunteer: @model.volunteer_url,
+          careers: @model.jobs_url,
+          locate: @model.locate_url
+        }
       end
 
     end
