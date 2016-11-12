@@ -19,6 +19,7 @@ module API
 
       def urls
         {
+          homepage: @model.url,
           donate: @model.donate_url,
           volunteer: @model.volunteer_url,
           careers: @model.jobs_url,
