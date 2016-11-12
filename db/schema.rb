@@ -25,6 +25,10 @@ ActiveRecord::Schema.define(version: 20161111212256) do
     t.string   "desc_path"
     t.string   "desc_css_selector"
     t.string   "url"
+    t.string   "donate_url"
+    t.string   "volunteer_url"
+    t.string   "locate_url"
+    t.string   "jobs_url"
     t.boolean  "woman_or_minority_owned"
     t.string   "tags",                    default: [], null: false, array: true
     t.datetime "created_at",                           null: false

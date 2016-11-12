@@ -10,6 +10,10 @@ class CreateOrganizations < ActiveRecord::Migration[5.0]
       t.string :desc_path
       t.string :desc_css_selector
       t.string :url
+      t.string :donate_url
+      t.string :volunteer_url
+      t.string :locate_url
+      t.string :jobs_url
       t.boolean :woman_or_minority_owned
       t.string :tags, array: true, null: false, default: []
 
